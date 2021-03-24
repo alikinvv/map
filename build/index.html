@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+</head>
+<body>
+<!-- START CONTENT  -->
+
+<header class="header">
+    <div class="container">
+        <div>
+            <a href="/" class="header__logo"><img src="img/logo.png" alt=""></a>
+            <div class="header__masters"><strong id="masters-count">1090</strong> мастеров</div>
+        </div>
+        <a class="header__phone" href="tel:+74994551502" data-modal="callback">+7 (499) 455-15-02</a>
+    </div>
+</header>
+
+<div id="map"></div>
+
+<div class="main">
+    <div class="calculator">
+        <div class="calculator__step active">
+            <div class="calculator__row">
+                <div class="calculator__col">
+                    <div class="calculator__group">
+                        <div>
+                            <input type="text" class="calculator__input calculator__input-with-text" placeholder="Район">
+                        </div>
+                        <div class="calculator__question">?</div>
+                    </div>
+                    <div class="calculator__group">
+                        <div>
+                            <input type="text" class="calculator__input calculator__input-with-text" placeholder="Общая площадь">
+                            <span class="calculator__designation">кв.м</span>
+                        </div>
+                        <div class="calculator__question">?</div>
+                    </div>
+                    <div class="calculator__group">
+                        <div>
+                            <input type="text" class="calculator__input calculator__input-with-text" placeholder="Нужно светильников">
+                            <span class="calculator__designation">шт</span>
+                        </div>
+                        <div class="calculator__question">?</div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="javascript:void(0)" class="btn">Рассчитать потолок</a>
+
+        </div>
+    </div>
+</div>
+
+<!-- END CONTENT  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
